@@ -1,0 +1,19 @@
+# ipv4_cidr
+#
+# Description:
+#  ipv4_cidr is a parser for ipv4-addresses which is 
+#  able to validate and expand them.
+#  
+# Dependencies:
+#  cpan -i Parse::RecDescent
+# 
+# Usage:
+#  # test if ip-address is valid
+#  ./ipv4_cidr.pl 192.168.0.1
+#
+#  # print ip-address 192.168.0.1, 192.168.0.2, ..., 192.168.0.10
+#  ./ipv4_cidr.pl 192.168.0.1-10
+#
+#  # print the hell out of it
+#  ./IPV4_CIDR.pl 192-193.168,170.0.1/24
+#
